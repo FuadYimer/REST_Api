@@ -13,9 +13,11 @@ const { getGoals,
 // router.delete('/:id',deleteGoals) 
 
 
+const {protect} = require('../middleware/authMiddleware')
+
 // More cleaner
-router.route('/').get(getGoals).post(postGoals)
-router.route('/:id').delete(deleteGoals).put(updateGoals)
+router.route('/').get(protect,getGoals).post(protect, postGoals)
+router.route('/:id').delete(protect, deleteGoals).put(protect, updateGoals)
 
 
 
