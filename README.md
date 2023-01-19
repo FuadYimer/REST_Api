@@ -1,5 +1,5 @@
-# REST_Api
-#MERN REST Apli demo
+# Goal Application
+# The goal application is used to learn MEARN Stack 
 
 ## Backend Server Setup
 
