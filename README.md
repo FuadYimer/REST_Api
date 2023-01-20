@@ -1,5 +1,5 @@
 # Goal Application
-# The goal application is used to learn MEARN Stack 
+# The application is used to learn MEARN Stack 
 
 ## Backend Server Setup
 
